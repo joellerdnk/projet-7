@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react"
-import Chevron from "../../assets/images/vectorBas.svg"
+import Chevron from "../../assets/images/vector-down.svg"
 
 export default function Collapse(props) {
 	// Définir le state du toggle (et false par défaut)
