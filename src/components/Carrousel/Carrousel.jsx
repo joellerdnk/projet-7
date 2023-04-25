@@ -2,7 +2,7 @@ import { useState } from "react"
 import left from "../../assets/images/vector-left.svg"
 import right from "../../assets/images/vector-right.svg"
 
-export default function Carrousel({ slides, index }) {
+export default function Carrousel({ slides }) {
 	// Définir l'index du premier slide à 0
 	const [current, setCurrent] = useState(0)
 	const length = slides.length
